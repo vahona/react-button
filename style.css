@@ -9,72 +9,46 @@
   flex-wrap: wrap;
 }
 
-.default {
-  background-color: red;
+
+button {
+    margin: 1rem;
 }
 
-.default {
 
+
+.danger {
+    background-color: red;
 }
-.gray {
-    
+
+.text {
+    background-color: teal;
 }
-.white {
-    
+
+.md {
+    background-color: blue;
 }
-.light-blue {
-    
+
+.secondary {
+    background-color: #455A64;
 }
-.no-border {
-    
+
+.secondary:hover {
+  background-color: #1C313A;
 }
-.blue-no-border {
-    
+
+.danger:hover {
+    background-color: #9A0007;
 }
-.blue {
-    
+
+.outline {
+    background-color: white;
+    color: blue;
+    border: blue 1px solid;
 }
-.light-gray {
-    
+
+.outline:hover {
+  background-color: rgb(205, 206, 241);
 }
-.left-icon {
-    
-}
-.right-icon {
-    
-}
-.small {
-    
-}
-.medium {
-    
-}
-.big {
-    
-}
-.gray-light2 {
-    
-}
-.blue2 {
-    
-}
-.black-light {
-    
-}
-.red {
-    
-}
-.gray-pink {
-    
-}
-.blue3 {
-    
-}
-.black {
-    
-}
-.grenat {
-    
-}
+
 
 
