@@ -1,0 +1,11 @@
+.container-btn {
+    margin: 1rem;
+    background-color: E0E0E0;
+    padding: 6px;
+}
+
+.list-button {
+  display: flex;
+  flex-wrap: wrap;
+}
+

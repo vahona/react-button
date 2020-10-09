@@ -28404,32 +28404,78 @@ var App = /*#__PURE__*/function (_React$Component) {
     _this.setState = {
       button: 'default'
     };
-    _this.handleClick = _this.handleClick.bind(_assertThisInitialized(_this));
-    _this.handleHover = _this.handleHover.bind(_assertThisInitialized(_this));
+    _this.handleClick = _this.handleClick.bind(_assertThisInitialized(_this)); // this.handleHover = this.handleHover.bind(this)
+
     return _this;
   }
 
   _createClass(App, [{
     key: "handleClick",
-    value: function handleClick() {
-      this.setState(function (prevState) {});
-    }
-  }, {
-    key: "handleHover",
-    value: function handleHover() {}
+    value: function handleClick() {}
   }, {
     key: "render",
     value: function render() {
-      return /*#__PURE__*/_react.default.createElement("div", null, /*#__PURE__*/_react.default.createElement("button", {
-        type: "text",
-        onClick: this.handleClick,
-        onHover: this.handleHover
-      }, "Default"));
+      return /*#__PURE__*/_react.default.createElement("div", {
+        className: "list-button"
+      }, /*#__PURE__*/_react.default.createElement(Button, {
+        className: "default"
+      }), /*#__PURE__*/_react.default.createElement(Button, {
+        className: "gray"
+      }), /*#__PURE__*/_react.default.createElement(Button, {
+        className: "white"
+      }), /*#__PURE__*/_react.default.createElement(Button, {
+        className: "light-blue"
+      }), /*#__PURE__*/_react.default.createElement(Button, {
+        className: "no-border"
+      }), /*#__PURE__*/_react.default.createElement(Button, {
+        className: "blue-no-border"
+      }), /*#__PURE__*/_react.default.createElement(Button, {
+        className: "blue"
+      }), /*#__PURE__*/_react.default.createElement(Button, {
+        className: "light-gray"
+      }), /*#__PURE__*/_react.default.createElement(Button, {
+        className: "transparent"
+      }), /*#__PURE__*/_react.default.createElement(Button, {
+        className: "left-icon"
+      }), /*#__PURE__*/_react.default.createElement(Button, {
+        className: "right-icon"
+      }), /*#__PURE__*/_react.default.createElement(Button, {
+        className: "small"
+      }), /*#__PURE__*/_react.default.createElement(Button, {
+        className: "medium"
+      }), /*#__PURE__*/_react.default.createElement(Button, {
+        className: "big"
+      }), /*#__PURE__*/_react.default.createElement(Button, {
+        className: "gray-light2"
+      }), /*#__PURE__*/_react.default.createElement(Button, {
+        className: "blue2"
+      }), /*#__PURE__*/_react.default.createElement(Button, {
+        className: "black-light"
+      }), /*#__PURE__*/_react.default.createElement(Button, {
+        className: "red"
+      }), /*#__PURE__*/_react.default.createElement(Button, {
+        className: "gray-pink"
+      }), /*#__PURE__*/_react.default.createElement(Button, {
+        className: "blue3"
+      }), /*#__PURE__*/_react.default.createElement(Button, {
+        className: "black"
+      }), /*#__PURE__*/_react.default.createElement(Button, {
+        className: "grenat"
+      }));
     }
   }]);
 
   return App;
 }(_react.default.Component);
+
+function Button() {
+  return /*#__PURE__*/_react.default.createElement("div", {
+    className: "button-container"
+  }, /*#__PURE__*/_react.default.createElement("button", {
+    type: "text",
+    className: "container-btn"
+  }, "Default"));
+}
 
 _reactDom.default.render( /*#__PURE__*/_react.default.createElement(App, null), document.getElementById('root'));
 },{"react":"node_modules/react/index.js","react-dom":"node_modules/react-dom/index.js","./style.css":"style.css"}],"../../AppData/Roaming/npm/node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
@@ -28460,7 +28506,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "58753" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "61759" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};
