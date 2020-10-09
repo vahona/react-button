@@ -1,11 +1,80 @@
 .container-btn {
     margin: 1rem;
-    background-color: E0E0E0;
     padding: 6px;
+    
 }
 
 .list-button {
   display: flex;
   flex-wrap: wrap;
 }
+
+.default {
+  background-color: red;
+}
+
+.default {
+
+}
+.gray {
+    
+}
+.white {
+    
+}
+.light-blue {
+    
+}
+.no-border {
+    
+}
+.blue-no-border {
+    
+}
+.blue {
+    
+}
+.light-gray {
+    
+}
+.left-icon {
+    
+}
+.right-icon {
+    
+}
+.small {
+    
+}
+.medium {
+    
+}
+.big {
+    
+}
+.gray-light2 {
+    
+}
+.blue2 {
+    
+}
+.black-light {
+    
+}
+.red {
+    
+}
+.gray-pink {
+    
+}
+.blue3 {
+    
+}
+.black {
+    
+}
+.grenat {
+    
+}
+
 

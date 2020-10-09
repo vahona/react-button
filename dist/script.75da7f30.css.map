@@ -1,1 +1,0 @@
-{"version":3,"sources":["style.css"],"names":[],"mappings":"AAAA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA","file":"script.75da7f30.css","sourceRoot":"..","sourcesContent":[".container-btn {\r\n    margin: 1rem;\r\n    background-color: E0E0E0;\r\n    padding: 6px;\r\n}\r\n\r\n.list-button {\r\n  display: flex;\r\n  flex-wrap: wrap;\r\n}\r\n\r\n"]}
