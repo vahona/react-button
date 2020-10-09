@@ -7,22 +7,27 @@ class App extends React.Component{
 
     constructor(props) {
         super(props);
-        
+        this.state = {
+            color : 'white'
+        }
 
         this.handleClick = this.handleClick.bind(this)
-        // this.handleHover = this.handleHover.bind(this)
+
     }
 
-
     handleClick() {
-        e.preventDefault();
-     console.log("click me");
+        this.setState({ color: 'red'})
+
+        console.log("click me");
+      
     }
 
 
     render() {
-   return (<div className = "list-button">
-       <Button className="default"/>
+        
+        return (<div className="list-button" onClick={this.handleClick} >
+
+       <Button className="default" color="blue" / >
        <Button className="gray" />
        <Button className="white"
                variant="outline" />
@@ -63,15 +68,18 @@ class App extends React.Component{
 }
 
 
-function Button(props) {
-  
+class Button extends React.Component {
+    constructor() {
+        super()
+    }
+
+  render() { 
     return (<div className="button-container">
-        <button type="text" className="container-btn" >Default</button>
+        <button type="button" className="container-btn" > Default </button>
         </div>)
+
+  }
 }
-
-
-
 
 
 ReactDOM.render(<App />, document.getElementById('root'))
