@@ -12,7 +12,11 @@
 
 button {
     margin: 1rem;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #E0E0E0;
 }
+
 
 
 
@@ -50,5 +54,33 @@ button {
   background-color: rgb(205, 206, 241);
 }
 
+.text {
+    border: none;
+    color: blue;
+    background-color: white;
+}
 
+.text:nth-of-type(1):hover {
+    background-color:  rgba(41, 98, 255, 0.1);;
+}
+
+.text:nth-of-type(2):hover {
+  background-color: yellow;
+}
+
+.default {
+    background-color:#E0E0E0;
+}
+
+.default:hover {
+  background-color: #AEAEAE;
+}
+
+.primary {
+    background-color: #2962FF;
+}
+
+.primary:hover {
+    background-color:  #0039CB;
+}
 
