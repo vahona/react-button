@@ -1,0 +1,133 @@
+.container-btn {
+    margin: 1rem;
+    padding: 6px;
+    
+}
+
+.list-button {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+
+button {
+    margin: 1rem;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #E0E0E0;
+}
+
+
+/* button:first-of-type:hover {
+  background-color: #AEAEAE;;
+} */
+
+.danger {
+    background-color: red;
+    color: white;
+}
+
+.text {
+    background-color: teal;
+}
+
+.md {
+    background-color: blue;
+}
+
+.secondary {
+    background-color: #455A64;
+    color: white;
+}
+
+.secondary:hover {
+  background-color: #1C313A;
+}
+
+.danger:hover {
+    background-color: #9A0007;
+}
+
+.outline {
+    background-color: white;
+    color: blue;
+    border: blue 1px solid;
+}
+
+.sm {
+    background-color: #2962FF;
+    color: white;
+   
+}
+
+.local_grocery_store {
+    background-color: #2962FF;
+    color: white;
+}
+
+.md {
+    background-color: #2962FF;
+    color: white;
+    padding: 0.75rem;
+    
+}
+.lg {
+    background-color: #2962FF;
+    color: white;
+    padding: 1rem;
+}
+
+.disableShadow {
+    background-color: #3D5AFE;
+    color: white;
+}
+
+.outline:hover {
+  background-color: rgb(205, 206, 241);
+}
+
+button:nth-of-type(6) {
+    color: #9E9E9E;
+}
+
+/* .disableShadow {
+    color: #E0E0E0;
+}
+
+.disableShadow:hover {
+  display: none;
+  
+} */
+
+.text {
+    border: none;
+    color: blue;
+    background-color: white;
+}
+
+.text:nth-of-type(1):hover {
+    background-color:  rgba(41, 98, 255, 0.1);;
+}
+
+
+
+.default {
+    background-color:#E0E0E0;
+}
+
+.default:hover {
+  background-color: #AEAEAE;
+}
+
+.primary {
+    background-color: #2962FF;
+    color: white;
+}
+
+.primary:hover {
+    background-color:  #0039CB;
+}
+
+
+
+/*# sourceMappingURL=/script.75da7f30.css.map */
