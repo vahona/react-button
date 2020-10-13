@@ -1,13 +1,5 @@
 import React from 'react'
 
-
-
-
-
-
-
-
-
 function Button(props) {
 
     let decorations = '';
@@ -17,6 +9,10 @@ function Button(props) {
     }
     if (props.size) {
         decorations = props.size
+    }
+
+    if (props.disableShadow) {
+        decorations = props.disableShadow
     }
 
     if (props.variant) {
@@ -30,10 +26,12 @@ function Button(props) {
         decorations = props.starticon
     }
 
-
+    if (props.endicon) {
+        decorations = props.endicon
+    }
 
     return (<div className="button-container">
-        <button type="button" className={decorations}> Default </button>
+        <button type="button" className={decorations} > button </button>
     </div>)
 
 }
